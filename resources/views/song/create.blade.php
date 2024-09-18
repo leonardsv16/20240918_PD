@@ -3,7 +3,7 @@
         <h1 class="text-2xl font-bold mb-6 text-center">Create Song</h1>
         <form action="{{ route('song.store') }}" method="POST" class="space-y-4">
             @csrf
-            @method('PUT') 
+            @method('POST') 
 
             <div class="form-group">
                 <label for="tag" class="block text-sm font-medium text-gray-700">Title</label>
